@@ -1,0 +1,431 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.hero{
+    position: static;
+    width: 222px;
+    height: 38px;
+  display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 24px 160px 24px 160px;
+
+}
+.fontstyle{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sbutton{
+
+position: static;
+width: 116px;
+height: 52px;
+margin: 0px 1100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:48;
+padding: 15px 40px 15px 40px;
+background: rgb(24, 165, 8);
+border-radius: 10px;
+}
+.banner{
+    
+  position: static;
+  width: 1350px;
+  height: 560px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 50px 20px;
+   border-radius: 24px;
+
+   background: rgb(198, 228, 214);
+}
+.banner1{
+   
+}
+.ptext{
+    gap: 4;
+    margin: 0px 0px;
+
+   color: rgba(14, 14, 14, 0.5);
+   font-family: Fira Sans;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 29px;
+   letter-spacing: 0%;
+   text-align: left;
+   
+}
+.htext{
+    
+position: static;
+width: 622px;
+height: 201px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn{
+    margin-top: 100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    row-gap: 10px;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    background: rgb(0, 106, 80);
+}
+.vvision{
+
+    position: static;
+   width: 1350px;
+   height: 90px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-left: 20px;
+   
+   gap: 0;
+   
+  
+    }
+    .card{
+       
+        margin-top: 100px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 100px; 
+        justify-content: left; 
+        align-items: flex-start;
+        
+    }
+    .card1{
+       position: static;   
+       width: 410.67px;
+       height: 325px;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       gap: 24;
+       padding: 32px;
+
+       box-sizing: border-box;
+       border-radius: 16px;
+
+       background: rgba(84, 144, 245, 0.2);
+    }
+    .card2{
+        position: static;   
+        width: 410.67px;
+        height: 325px;
+ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 32px;
+ 
+        box-sizing: border-box;
+        border-radius: 16px;
+ 
+        background: rgb(198, 228, 214);
+     }
+     .card3{
+        position: static;   
+        width: 410.67px;
+        height: 325px;
+ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 32px;
+ 
+        box-sizing: border-box;
+        border-radius: 16px;
+ 
+        background: rgb(247, 235, 207);
+     }
+     .cbtn{
+        
+        
+        padding-bottom: 20px;
+        row-gap: 10px;
+        align-items: center;
+        border-radius: 8px;
+        text-align: center;
+        background: rgb(84, 144, 245);
+        color: white;
+        padding: 11px 20px 11px 20px;
+    }
+    .cbtn1{
+        
+        
+        padding-bottom: 20px;
+        row-gap: 10px;
+        align-items: center;
+        border-radius: 8px;
+        text-align: center;
+        background: rgb(9, 161, 92);
+        color: white;
+        padding: 11px 20px 11px 20px;
+    }
+    .cbtn2{
+        
+        
+        padding-bottom: 20px;
+        row-gap: 10px;
+        align-items: center;
+        border-radius: 8px;
+        text-align: center;
+        background: rgb(255, 194, 57);
+        color: white;
+        padding: 11px 20px 11px 20px;
+    }
+    .pyunus{
+        background-image: url('../assets/quote-bg.png');
+        position: static;
+        width: 1550px;
+        height: 200px;
+       margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction:row;
+        gap: 10px; 
+        justify-content: left; 
+        align-items: flex-start;  
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+    }
+    .news{
+   
+    position: static;
+    width: 1550px;
+    height: 120px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 20px;
+      }
+ .nbtn{
+        padding-bottom: 20px;
+        row-gap: 10px;
+        align-items: center;
+        border-radius: 8px;
+        text-align: center;
+        background: rgb(12, 237, 34);
+        color: white;
+        padding: 11px 20px 11px 20px;
+   
+ }
+ .satalite{
+    position: static;
+    width: 1550px;
+    height: 500px;
+
+    display:flex;
+    
+    gap: 10px; 
+    justify-content: space-between; 
+    
+   
+   margin: 20px;
+   
+   border-radius: 24px;
+   background: rgb(237, 231, 231);
+ }
+ .satalaiterow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+ }
+ .firstimg{
+    align-items: center;
+    border-radius: 24px;
+    margin: 80px;
+ }
+ .donate{
+    position: static;
+    width: 1350px;
+    height: 500px;
+    display:flex;
+    
+    gap: 32px; 
+    
+    margin-left:20px;
+   margin-top: 60px;
+   
+   padding: 100px;
+   border-radius: 24px;
+   background: rgb(237, 231, 231);
+ }
+ .done{
+    
+        gap: 100px;
+        justify-content: space-between;
+        border-radius: 8px;
+        text-align: center;
+        
+        color: white;
+        padding: 10px;
+        margin: 20px;
+
+ }
+ .taka1{
+    position: static;
+    width: 252px;
+    height: 128px;
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+ }
+ .taka2{
+    position: static;
+    width: 252px;
+    font-size: 35px;
+    height: 128px;  
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(198, 228, 214);
+ }
+ .taka3{
+    position: static;
+     width: 252px;
+     height: 128px;
+     font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+ }
+ .taka4{
+    position: static;
+    width: 252px;
+    height: 128px;
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+ }
+.linerow{
+    display: flex;
+    flex-direction: row;
+    
+    gap:0px;
+}
+.subscribe{
+    position: static;
+    width: 1350px;
+    height: 500px;
+    display:flex;
+    
+    gap: 32px; 
+    
+    margin-left:20px;
+   margin-top: 60px;
+   
+   padding: 100px;
+   border-radius: 24px;
+   background: rgb(175, 146, 146);
+}
+.issubc{
+    text-align: center;
+    margin-top: 275px;
+   
+}
+.pssubc{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+.footer{
+    
+position: static;
+width: 1600px;
+height: 226px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 46;
+padding: 50px 160px 50px 160px;
+
+
+
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+margin: 80px 0px;
+
+background: rgb(245, 245, 245);
+ }
